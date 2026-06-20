@@ -463,10 +463,19 @@ h3 { font-size: 20px; font-weight: 600; letter-spacing: normal; }
 }
 .service-card {
   background: var(--color-surface);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
   border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: var(--space-3);
   font-weight: 500;
+  transition: box-shadow 200ms ease;
+}
+@supports not (backdrop-filter: blur(1px)) {
+  .service-card { background: var(--color-surface-solid); }
+}
+.service-card:hover {
+  box-shadow: 0 0 24px 0 color-mix(in srgb, var(--color-accent) 20%, transparent);
 }
 @media (min-width: 768px) {
   .service-grid { grid-template-columns: repeat(2, 1fr); }
