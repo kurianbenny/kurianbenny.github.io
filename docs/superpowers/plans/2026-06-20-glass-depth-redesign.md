@@ -17,7 +17,7 @@
 - No horizontal scroll at any breakpoint: 375 / 768 / 1024 / 1440px.
 - Color tokens (exact values, both themes), used verbatim everywhere:
   - Dark: `--color-background:#0B1120; --color-surface:rgba(255,255,255,0.05); --color-surface-solid:#131B2E; --color-text:#F8FAFC; --color-text-muted:#94A3B8; --color-border:rgba(255,255,255,0.10); --color-accent:#22D3EE; --color-accent-2:#2563EB;`
-  - Light (`[data-theme="light"]`): `--color-background:#F1F5F9; --color-surface:rgba(255,255,255,0.6); --color-surface-solid:#FFFFFF; --color-text:#0F172A; --color-text-muted:#475569; --color-border:rgba(15,23,42,0.10); --color-accent:#0891B2; --color-accent-2:#2563EB;`
+  - Light (`[data-theme="light"]`): `--color-background:#F1F5F9; --color-surface:rgba(255,255,255,0.6); --color-surface-solid:#FFFFFF; --color-text:#0F172A; --color-text-muted:#475569; --color-border:rgba(15,23,42,0.10); --color-accent:#0E7490; --color-accent-2:#2563EB;` (originally `#0891B2`; darkened during the Task 10 QA pass after measuring 3.36:1 against `#F1F5F9`, below the 4.5:1 AA floor — `#0E7490` measures 4.89:1)
 - Glass recipe (apply verbatim wherever "glass treatment" is specified): `background: var(--color-surface); backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur); border: 1px solid var(--color-border);` plus an `@supports not (backdrop-filter: blur(1px))` fallback setting `background: var(--color-surface-solid);`.
 - Typography stays Space Grotesk (headings) / Archivo (body) — no font change, only scale/weight.
 
@@ -119,10 +119,12 @@ with:
   --color-text: #0F172A;
   --color-text-muted: #475569;
   --color-border: rgba(15, 23, 42, 0.10);
-  --color-accent: #0891B2;
+  --color-accent: #0E7490;
   --color-accent-2: #2563EB;
 }
 ```
+
+(This light-mode `--color-accent` value was corrected from `#0891B2` to `#0E7490` during the Task 10 QA pass — see Global Constraints note above.)
 
 - [ ] **Step 3: Replace the heading scale**
 
@@ -157,7 +159,7 @@ h3 { font-size: 20px; font-weight: 600; letter-spacing: normal; }
 - [ ] **Step 4: Verify token and scale values**
 
 ```bash
-grep -q -- '--color-accent: #22D3EE;' css/style.css && grep -q -- '--color-accent: #0891B2;' css/style.css && grep -q -- '--glass-blur: blur(16px) saturate(150%);' css/style.css && echo PASS
+grep -q -- '--color-accent: #22D3EE;' css/style.css && grep -q -- '--color-accent: #0E7490;' css/style.css && grep -q -- '--glass-blur: blur(16px) saturate(150%);' css/style.css && echo PASS
 ```
 
 Expected: `PASS`
@@ -1081,7 +1083,7 @@ Use the Playwright browser tool:
 }
 ```
 Expect a value `>= 4.5`.
-2. Click `#theme-toggle`. Evaluate the same formula with `lum('0891B2')` and `lum('F1F5F9')` — expect `>= 4.5`.
+2. Click `#theme-toggle`. Evaluate the same formula with `lum('0E7490')` and `lum('F1F5F9')` — expect `>= 4.5`.
 
 - [ ] **Step 3: Verify keyboard navigation still works against glass surfaces**
 

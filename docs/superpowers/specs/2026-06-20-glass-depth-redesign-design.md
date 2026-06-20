@@ -32,7 +32,7 @@ Light (`[data-theme="light"]`):
 --color-text: #0F172A
 --color-text-muted: #475569
 --color-border: rgba(15,23,42,0.10)
---color-accent: #0891B2                         /* darker cyan, needed for AA contrast on light bg */
+--color-accent: #0E7490                         /* darker cyan, needed for AA contrast on light bg (originally #0891B2; darkened during QA — see below) */
 --color-accent-2: #2563EB
 ```
 
@@ -114,7 +114,7 @@ The current vanilla `IntersectionObserver`-based `.reveal` / `.is-visible` fade-
 Re-run the checks from the original portfolio plan's QA pass, plus new checks for this redesign:
 
 - Responsive: no horizontal scroll at 375 / 768 / 1024 / 1440px, in both themes.
-- Contrast: new `--color-accent` (`#22D3EE` dark / `#0891B2` light) meets 4.5:1 against its respective background and against `--color-surface-solid` wherever used as text.
+- Contrast: new `--color-accent` (`#22D3EE` dark / `#0E7490` light) meets 4.5:1 against its respective background and against `--color-surface-solid` wherever used as text.
 - Keyboard nav: focus rings (`:focus-visible`, accent-colored) remain visible against translucent `.glass` surfaces in both themes.
 - `prefers-reduced-motion: reduce`: ambient blobs render but stay static; existing `.reveal` sections still appear instantly (already covered by current CSS).
 - Mobile (`<768px`): parallax is inactive (gated by `matchMedia`); blobs still render statically behind content without causing layout shift or horizontal overflow.
