@@ -47,7 +47,7 @@ Base palette and type pairing sourced from the `ui-ux-pro-max` skill's design-sy
 - Background `#0F172A`, surface `#1E293B`, secondary surface `#334155`, text `#F8FAFC`, muted text `#94A3B8`, border `#475569`, accent `#22C55E`.
 
 **Light (toggle):**
-- Background `#F8FAFC`, surface `#FFFFFF`, secondary surface `#E2E8F0`, text `#0F172A`, muted text `#475569`, border `#CBD5E1`, accent `#16A34A` (darkened for AA contrast on white).
+- Background `#F8FAFC`, surface `#FFFFFF`, secondary surface `#E2E8F0`, text `#0F172A`, muted text `#475569`, border `#CBD5E1`, accent `#15803D` (darkened from the initial `#16A34A` during QA — `#16A34A` measured 3.30:1 against white and failed AA; `#15803D` measures 5.02:1).
 
 Both themes expressed as CSS custom properties on `:root` / `[data-theme="light"]`, so the rest of the CSS never branches on theme directly.
 

@@ -605,7 +605,7 @@ Replace `<section id="skills" class="section skills reveal"></section>` in `inde
         </ul>
       </div>
       <div class="skills__group">
-        <h3>Backend</h3>
+        <h3>Backend Technologies</h3>
         <ul class="tags">
           <li class="tag">Laravel</li><li class="tag">Django</li><li class="tag">Django Ninja</li>
           <li class="tag">WordPress</li><li class="tag">WooCommerce</li><li class="tag">Node.js</li>
@@ -613,7 +613,7 @@ Replace `<section id="skills" class="section skills reveal"></section>` in `inde
         </ul>
       </div>
       <div class="skills__group">
-        <h3>Frontend</h3>
+        <h3>Frontend Technologies</h3>
         <ul class="tags">
           <li class="tag">React</li><li class="tag">Next.js</li><li class="tag">HTML5</li>
           <li class="tag">CSS3</li><li class="tag">Tailwind CSS</li><li class="tag">Bootstrap</li>
@@ -628,7 +628,7 @@ Replace `<section id="skills" class="section skills reveal"></section>` in `inde
       <div class="skills__group">
         <h3>Cloud Platforms</h3>
         <ul class="tags">
-          <li class="tag">AWS</li><li class="tag">Azure</li><li class="tag">DigitalOcean</li><li class="tag">Hostinger</li>
+          <li class="tag">Amazon Web Services (AWS)</li><li class="tag">Microsoft Azure</li><li class="tag">DigitalOcean</li><li class="tag">Hostinger</li>
         </ul>
       </div>
       <div class="skills__group">
@@ -700,7 +700,7 @@ Append to `css/style.css`:
 grep -c 'class="tag"' index.html
 ```
 
-Expected: `48`
+Expected: `52`
 
 - [ ] **Step 4: Commit**
 
