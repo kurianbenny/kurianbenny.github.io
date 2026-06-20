@@ -429,9 +429,20 @@ h3 { font-size: 20px; font-weight: 600; letter-spacing: normal; }
 }
 .project-card {
   background: var(--color-surface);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
   border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: var(--space-3);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+@supports not (backdrop-filter: blur(1px)) {
+  .project-card { background: var(--color-surface-solid); }
+}
+.project-card:hover,
+.project-card:focus-within {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 0 32px 0 color-mix(in srgb, var(--color-accent) 25%, transparent);
 }
 .project-card p {
   margin-top: var(--space-1);
