@@ -54,6 +54,41 @@ a { color: inherit; text-decoration: none; }
   }
 }
 
+/* ---------- Ambient depth layer ---------- */
+.ambient-blob {
+  position: absolute;
+  z-index: -1;
+  width: 60vw;
+  height: 60vw;
+  max-width: 640px;
+  max-height: 640px;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.35;
+  pointer-events: none;
+  will-change: transform;
+}
+.ambient-blob--1 {
+  background: var(--color-accent);
+  top: -10vh;
+  left: -10vw;
+}
+.ambient-blob--2 {
+  background: var(--color-accent-2);
+  top: 90vh;
+  right: -15vw;
+}
+.ambient-blob--3 {
+  background: var(--color-accent);
+  top: 220vh;
+  left: 15vw;
+  opacity: 0.25;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient-blob { opacity: 0.15; }
+}
+
 /* ---------- Base ---------- */
 body {
   background: var(--color-background);
@@ -62,6 +97,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   transition: background-color 200ms ease, color 200ms ease;
+  overflow-x: hidden;
 }
 
 h1, h2, h3 { font-family: var(--font-heading); line-height: 1.2; font-weight: 700; letter-spacing: -0.02em; }
