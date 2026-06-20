@@ -36,7 +36,7 @@ a { color: inherit; text-decoration: none; }
   --color-text: #0F172A;
   --color-text-muted: #475569;
   --color-border: #CBD5E1;
-  --color-accent: #16A34A;
+  --color-accent: #15803D;
 }
 
 @media (prefers-reduced-motion: reduce) {
