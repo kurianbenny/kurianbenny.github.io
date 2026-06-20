@@ -252,6 +252,7 @@ h3 { font-size: 24px; }
   font-weight: 700;
   color: var(--color-accent);
   flex-shrink: 0;
+  object-fit: cover;
 }
 
 @media (min-width: 768px) {
