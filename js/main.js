@@ -89,9 +89,36 @@ function initScrollReveal() {
   targets.forEach(target => observer.observe(target));
 }
 
+function initParallaxBackground() {
+  if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.matchMedia().add(
+    '(prefers-reduced-motion: no-preference) and (min-width: 768px)',
+    () => {
+      const blobs = document.querySelectorAll('.ambient-blob');
+      blobs.forEach((blob) => {
+        const speed = parseFloat(blob.dataset.speed) || 0.3;
+        gsap.to(blob, {
+          y: () => window.innerHeight * speed * 4,
+          ease: 'none',
+          scrollTrigger: {
+            trigger: document.body,
+            start: 'top top',
+            end: 'bottom bottom',
+            scrub: true,
+          },
+        });
+      });
+    }
+  );
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initThemeToggle();
   initSmoothScrollNav();
   initMobileNav();
   initScrollReveal();
+  initParallaxBackground();
 });
