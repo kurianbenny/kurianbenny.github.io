@@ -39,6 +39,7 @@ function initSmoothScrollNav() {
 function initMobileNav() {
   const toggle = document.getElementById('nav-toggle');
   const nav = document.getElementById('primary-nav');
+  const firstLink = nav.querySelector('.nav-link');
 
   const closeNav = () => {
     nav.classList.remove('is-open');
@@ -48,6 +49,9 @@ function initMobileNav() {
   toggle.addEventListener('click', () => {
     const isOpen = nav.classList.toggle('is-open');
     toggle.setAttribute('aria-expanded', String(isOpen));
+    if (isOpen && firstLink) {
+      firstLink.focus();
+    }
   });
 
   nav.querySelectorAll('.nav-link').forEach(link => {
@@ -58,6 +62,13 @@ function initMobileNav() {
     if (!nav.classList.contains('is-open')) return;
     if (nav.contains(event.target) || toggle.contains(event.target)) return;
     closeNav();
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && nav.classList.contains('is-open')) {
+      closeNav();
+      toggle.focus();
+    }
   });
 }
 
