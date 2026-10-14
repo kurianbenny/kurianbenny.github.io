@@ -38,5 +38,10 @@
     "slug": "maintain-and-upgrade-legacy-code",
     "tool": "built-in image generation",
     "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Create one wide landscape editorial illustration, 3:2 composition. An old, solid navy mechanical module joined by a carefully fitted amber connector to a clean modern browser module, with a small wrench and testing checkpoints. A conceptual visual about incrementally modernizing existing software. Style: polished tactile 3D editorial illustration with restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural shadows. Palette: midnight navy, muted slate blue, warm cream background and amber accents, matching a professional full-stack developer portfolio. Fill the composition thoughtfully, keep the key subjects near the center so a wide 16:9 crop still works. No lettering, no words, no numbers, no logos, no watermark, no charts with labels. This is a conceptual illustration, not a literal product screenshot."
+  },
+  {
+    "slug": "why-website-asset-optimization-matters",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Create one wide landscape editorial illustration, 16:9 composition: two elegant browser windows displaying the same crisp miniature mountain-and-sun illustration, a bulky stack of navy image tiles on the left transformed through a small amber compression funnel into a compact neat tile stack on the right, with a subtle speed arrow made of small geometric forms. Communicate smaller website assets while retaining visual clarity. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural shadows. Palette midnight navy, muted slate blue, warm cream background, amber accents matching a professional full-stack developer portfolio. Keep main subjects centered with generous breathing room. No lettering, no words, no numbers, no logos, no watermark. Conceptual illustration, not a screenshot."
   }
 ]

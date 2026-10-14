@@ -166,5 +166,26 @@
     "height": 270,
     "bytes": 22946,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/why-website-asset-optimization-matters.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 65960,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/why-website-asset-optimization-matters-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 44346,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/why-website-asset-optimization-matters-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 17652,
+    "quality": 84
   }
 ]

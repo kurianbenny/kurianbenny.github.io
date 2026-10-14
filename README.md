@@ -45,7 +45,7 @@ The privacy page explains Google Forms processing and the other contact channels
 
 The build generates `/sitemap.xml` and `/rss.xml`, excluding drafts. Canonical URLs, page descriptions, Open Graph/Twitter previews, and Person/WebSite/WebPage structured data are included. Blog articles additionally use BlogPosting data; service pages use Service data. Confirmation and 404 pages use `noindex`. Social preview art is in `public/social-card.svg` and the rendered PNG is `public/social-card.png`.
 
-These are technical foundations, not guarantees of indexing, rankings, or AI citations. The eight published Markdown articles cover SEO, AI website building, professional launch support, hosting, MVP development, customer tracking, server migration, and legacy upgrades. Google’s [AI search guidance](https://developers.google.com/search/docs/appearance/ai-features) recommends the same foundational SEO practices for AI features. Review article copy before publishing under your name.
+These are technical foundations, not guarantees of indexing, rankings, or AI citations. The nine published Markdown articles cover SEO, AI website building, professional launch support, hosting, MVP development, customer tracking, server migration, legacy upgrades, and website asset optimization. Google’s [AI search guidance](https://developers.google.com/search/docs/appearance/ai-features) recommends the same foundational SEO practices for AI features. Review article copy before publishing under your name.
 
 After deployment, add the site to your own Search Console account, submit the sitemap, and inspect key URLs. These account-level actions have not been performed.
 
@@ -65,7 +65,7 @@ Navigation, footer, labels, and body copy use larger type and stronger contrast.
 
 Every published article requires `image` (a local `/images/blog/slug.webp` path) and `imageAlt`. Hidden drafts may omit them. Covers are 1280 × 720 WebP, with matching `-960.webp` and `-480.webp` responsive versions. Cards and article pages use the appropriate size through `srcset`; each article’s cover is also used in its social and structured metadata.
 
-All 24 current WebP files are below 400,000 bytes. Image measurements are recorded in `docs/blog-image-assets.json`. The images were created with the built-in image generation tool; the exact prompt set is in `docs/blog-image-prompts.json`. Final assets live in `public/images/blog/`. The illustrations are conceptual, rather than screenshots of client products.
+All 27 current WebP files are below 400,000 bytes. Image measurements are recorded in `docs/blog-image-assets.json`. The images were created with the built-in image generation tool; the exact prompt set is in `docs/blog-image-prompts.json`. Final assets live in `public/images/blog/`. The illustrations are conceptual, rather than screenshots of client products.
 
 ## Microsoft Clarity
 
