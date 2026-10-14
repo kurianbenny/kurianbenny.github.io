@@ -25,20 +25,21 @@ Keep filenames lowercase with hyphens and use flat content folders. Frontmatter 
 
 The included workflow builds and deploys pushes to `master` and can be run manually. In repository Settings → Pages, select **GitHub Actions** as the source. Verify the deployment branch before pushing if using a different branch. `astro.config.mjs` uses the root user-site domain, so no repository base path is needed. Nothing has been pushed or deployed by the local rebuild.
 
-The contact page includes disabled email and WhatsApp placeholders, with GitHub as the current usable contact link. Update the configuration below before enabling enquiries. Service and article copy should be reviewed before publication.
+The contact page includes Google Forms, email, WhatsApp, GitHub, and LinkedIn contact options. Service and article copy should be reviewed before publication.
 
 Deployment approach reference: [Astro GitHub Pages guide](https://docs.astro.build/en/guides/deploy/github/).
 
 ## Contact form and WhatsApp setup
 
-`src/config/contact.ts` holds the temporary email (`hello@example.com`) and WhatsApp number (`910000000000`). These are explicitly disabled placeholders. Name, email, phone (optional), message, and an optional service selection are on `/contact/`.
+The contact page embeds Google Forms, with a responsive iframe and a link to open the form directly. `googleFormUrl` in `src/config/contact.ts` controls the form. Manage questions, response access, notifications, and submission confirmation in Google Forms. Form submissions have not been tested locally.
 
-1. Replace `email` with the real inbox and set `formEnabled: true`. The form uses a standard POST to [FormSubmit](https://formsubmit.co/documentation), with the provider’s reCAPTCHA enabled and an additional honeypot. Human verification occurs on the provider’s page; it is not a simulated checkbox or a client-only security check.
-2. After deploying, complete FormSubmit’s email activation, then test delivery to your own inbox and verify the return page. Delivery and CAPTCHA have not been tested with the dummy email.
-3. Replace `whatsappNumber` with the real international digits, without `+` or spaces, and set `whatsappEnabled: true`. Update `whatsappMessage` if desired. Both the contact page and floating button use this configuration.
-4. Rebuild. Placeholder checks prevent enabling the included example email and number by accident.
+The same config holds the public email (`kurianbenny@gmail.com`) and WhatsApp number (`919496368053`). Both channels are enabled independently of the Google Form. The floating button uses the official WhatsApp logo with a decorative halo.
 
-No messages are sent while the placeholder configuration is active. A short privacy page explains the form processor and contact channels.
+1. Replace `email` with the real inbox and set `emailEnabled: true` to enable the email link.
+2. Replace `whatsappNumber` with international digits, without `+` or spaces, and set `whatsappEnabled: true`. Update `whatsappMessage` if desired.
+3. Rebuild. Placeholder checks prevent enabling the example email and number by accident.
+
+The privacy page explains Google Forms processing and the other contact channels.
 
 ## Search and AI search foundations
 
@@ -68,6 +69,6 @@ All 24 current WebP files are below 400,000 bytes. Image measurements are record
 
 ## Microsoft Clarity
 
-The shared head in `src/layouts/Base.astro` loads the official asynchronous tracking snippet for project `yxlkv78ov4`. It runs only on `https://kurianbenny.github.io`, excluding localhost and preview hosts. This uses the manual installation method, so the NPM SDK is not needed. If the production domain changes, update the origin guard. The contact form has `data-clarity-mask="True"`, and the privacy page discloses analytics.
+The shared head in `src/layouts/Base.astro` loads the official asynchronous tracking snippet for project `yxlkv78ov4`. It runs only on `https://kurianbenny.github.io`, excluding localhost and preview hosts. This uses the manual installation method, so the NPM SDK is not needed. If the production domain changes, update the origin guard. The Google Form panel has `data-clarity-mask="True"`, and the privacy page discloses analytics.
 
 After deploying, verify requests to `https://www.clarity.ms/collect` and activity in the Clarity dashboard. Dashboard collection and project consent settings have not been verified locally. See [Microsoft’s installation guide](https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup).
