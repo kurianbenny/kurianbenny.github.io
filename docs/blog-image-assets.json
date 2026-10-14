@@ -229,5 +229,26 @@
     "height": 270,
     "bytes": 17140,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/why-ai-development-still-needs-a-professional.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 52576,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/why-ai-development-still-needs-a-professional-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 37082,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/why-ai-development-still-needs-a-professional-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 16094,
+    "quality": 84
   }
 ]
