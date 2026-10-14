@@ -187,5 +187,26 @@
     "height": 270,
     "bytes": 17652,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/choose-the-right-website-hosting-plan.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 58692,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/choose-the-right-website-hosting-plan-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 37484,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/choose-the-right-website-hosting-plan-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 13952,
+    "quality": 84
   }
 ]
