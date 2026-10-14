@@ -1,0 +1,7 @@
+---
+interface Props { name: string; }
+const icons: Record<string,string> = {"React": "react.svg", "Next.js": "nextjs-icon.svg", "Laravel": "laravel.svg", "FastAPI": "fastapi-icon.svg", "Ruby on Rails": "rails.svg", "AWS": "aws.svg", "DigitalOcean": "digital-ocean-icon.svg", "MySQL": "mysql-icon.svg", "Python": "python.svg", "WordPress": "wordpress-icon.svg", "Symfony": "symfony.svg", "CodeIgniter": "codeigniter-icon.svg", "Drupal": "drupal-icon.svg", "JavaScript": "javascript.svg"};
+const {name}=Astro.props;
+const filename=icons[name];
+---
+{filename ? <img class="tech-icon" src={`/icons/${filename}`} alt="" aria-hidden="true" width="40" height="40" loading="lazy" /> : name === 'NoSQL' ? <svg class="tech-icon" aria-hidden="true" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7"><ellipse cx="16" cy="7" rx="10" ry="4" /><path d="M6 7v18c0 5 20 5 20 0V7M6 13c0 5 20 5 20 0M6 19c0 5 20 5 20 0" /></svg> : null}

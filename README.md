@@ -1,92 +1,73 @@
-# jira-collector
+# Kurian Benny — personal website
 
+A static Astro portfolio for `https://kurianbenny.github.io`. Content is kept in Markdown and generated as HTML at build time. No backend is required.
 
+## Local development
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://qbscodes.com/qbs/jira-collector.git
-git branch -M main
-git push -uf origin main
+```sh
+npm ci
+npm run dev
 ```
 
-## Integrate with your tools
+`npm run check` checks TypeScript and Astro templates. `npm run build` creates `dist/`. `npm run preview` serves the production build.
 
-- [ ] [Set up project integrations](https://qbscodes.com/qbs/jira-collector/-/settings/integrations)
+## Edit content
 
-## Collaborate with your team
+- Blog: `src/content/blog/*.md`. Use `title`, `description`, `date` (YYYY-MM-DD), `category`, optional `draft`, and `image` / `imageAlt` frontmatter. The filename determines `/blog/filename/`. Drafts are excluded from listings and generated pages. Start with the included draft and set `draft: false` when ready.
+- Services: `src/content/services/*.md`. Use `title`, `description`, `order`, and `label`. Each file generates `/services/filename/` and appears in the service listings.
+- FAQs: `src/content/faq/*.md`. Use `title` (question), `description`, and `order`. The Markdown body is the answer, rendered in the FAQ page.
+- About profile: `src/content/profile/about.md`. Technical background: `src/data/expertise.ts`.
+- Profile/homepage: `src/pages/index.astro`. Navigation and footer: `src/layouts/Base.astro`. Styling: `src/styles/global.css`.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+Keep filenames lowercase with hyphens and use flat content folders. Frontmatter is validated during the build. Content changes appear after the site rebuilds; Markdown is not edited by visitors.
 
-## Test and Deploy
+## GitHub Pages
 
-Use the built-in continuous integration in GitLab.
+The included workflow builds and deploys pushes to `master` and can be run manually. In repository Settings → Pages, select **GitHub Actions** as the source. Verify the deployment branch before pushing if using a different branch. `astro.config.mjs` uses the root user-site domain, so no repository base path is needed. Nothing has been pushed or deployed by the local rebuild.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+The contact page includes disabled email and WhatsApp placeholders, with GitHub as the current usable contact link. Update the configuration below before enabling enquiries. Service and article copy should be reviewed before publication.
 
-***
+Deployment approach reference: [Astro GitHub Pages guide](https://docs.astro.build/en/guides/deploy/github/).
 
-# Editing this README
+## Contact form and WhatsApp setup
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+`src/config/contact.ts` holds the temporary email (`hello@example.com`) and WhatsApp number (`910000000000`). These are explicitly disabled placeholders. Name, email, phone (optional), message, and an optional service selection are on `/contact/`.
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+1. Replace `email` with the real inbox and set `formEnabled: true`. The form uses a standard POST to [FormSubmit](https://formsubmit.co/documentation), with the provider’s reCAPTCHA enabled and an additional honeypot. Human verification occurs on the provider’s page; it is not a simulated checkbox or a client-only security check.
+2. After deploying, complete FormSubmit’s email activation, then test delivery to your own inbox and verify the return page. Delivery and CAPTCHA have not been tested with the dummy email.
+3. Replace `whatsappNumber` with the real international digits, without `+` or spaces, and set `whatsappEnabled: true`. Update `whatsappMessage` if desired. Both the contact page and floating button use this configuration.
+4. Rebuild. Placeholder checks prevent enabling the included example email and number by accident.
 
-## Name
-Choose a self-explaining name for your project.
+No messages are sent while the placeholder configuration is active. A short privacy page explains the form processor and contact channels.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+## Search and AI search foundations
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+The build generates `/sitemap.xml` and `/rss.xml`, excluding drafts. Canonical URLs, page descriptions, Open Graph/Twitter previews, and Person/WebSite/WebPage structured data are included. Blog articles additionally use BlogPosting data; service pages use Service data. Confirmation and 404 pages use `noindex`. Social preview art is in `public/social-card.svg` and the rendered PNG is `public/social-card.png`.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+These are technical foundations, not guarantees of indexing, rankings, or AI citations. The eight published Markdown articles cover SEO, AI website building, professional launch support, hosting, MVP development, customer tracking, server migration, and legacy upgrades. Google’s [AI search guidance](https://developers.google.com/search/docs/appearance/ai-features) recommends the same foundational SEO practices for AI features. Review article copy before publishing under your name.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+After deployment, add the site to your own Search Console account, submit the sitemap, and inspect key URLs. These account-level actions have not been performed.
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+## Personal design refresh
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+The homepage includes a portrait, an expanded introduction, technical background, services, an approach section, project starting points, and recent writing. `/about/` renders the Markdown profile. The portrait in `public/kurian-benny.jpg` was recovered from the original site backup. No unverified projects, employers, client logos, testimonials, or outcomes have been added.
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+The profile now presents full-stack development and DevOps across React, Next.js, major PHP frameworks and CMS platforms, Django Ninja, FastAPI, Ruby on Rails, ERPNext, AWS, DigitalOcean, VPS hosting, and server management. The backend service is `/services/backend-development/`.
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+## Technology logos and readability
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+Recognizable technology logos are stored locally under `public/icons/`; their source information is recorded in `public/icons/ATTRIBUTION.md`. `src/components/TechIcon.astro` renders them with readable text labels. `src/data/technologies.ts` controls the featured toolkit. MySQL and NoSQL are included in the expertise data, profile, FAQ, and backend service.
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+Navigation, footer, labels, and body copy use larger type and stronger contrast. The mobile/tablet menu provides larger targets, and the footer reserves room for the floating WhatsApp button.
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+## Blog cover images
 
-## License
-For open source projects, say how it is licensed.
+Every published article requires `image` (a local `/images/blog/slug.webp` path) and `imageAlt`. Hidden drafts may omit them. Covers are 1280 × 720 WebP, with matching `-960.webp` and `-480.webp` responsive versions. Cards and article pages use the appropriate size through `srcset`; each article’s cover is also used in its social and structured metadata.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+All 24 current WebP files are below 400,000 bytes. Image measurements are recorded in `docs/blog-image-assets.json`. The images were created with the built-in image generation tool; the exact prompt set is in `docs/blog-image-prompts.json`. Final assets live in `public/images/blog/`. The illustrations are conceptual, rather than screenshots of client products.
+
+## Microsoft Clarity
+
+The shared head in `src/layouts/Base.astro` loads the official asynchronous tracking snippet for project `yxlkv78ov4`. It runs only on `https://kurianbenny.github.io`, excluding localhost and preview hosts. This uses the manual installation method, so the NPM SDK is not needed. If the production domain changes, update the origin guard. The contact form has `data-clarity-mask="True"`, and the privacy page discloses analytics.
+
+After deploying, verify requests to `https://www.clarity.ms/collect` and activity in the Clarity dashboard. Dashboard collection and project consent settings have not been verified locally. See [Microsoft’s installation guide](https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup).

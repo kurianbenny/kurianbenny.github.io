@@ -1,0 +1,6 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+const entries=await Promise.all((await getCollection('faq')).sort((a,b)=>a.data.order-b.data.order).map(async entry=>({entry,...await render(entry)})));
+---
+<Base title="FAQ — Kurian Benny" description="Answers about Kurian Benny’s development background, technologies, services, and contact options."><section class="wrap section faq-page"><p class="eyebrow">FAQ / A FEW USEFUL ANSWERS</p><h1>Before we<br /><em>start a conversation.</em></h1><p class="page-intro">A little more about my background and the work I can help with.</p><div class="faq-list">{entries.map(({entry,Content})=><details><summary>{entry.data.title}<span aria-hidden="true">+</span></summary><div class="prose"><Content /></div></details>)}</div><a class="text-link" href="/#contact">Something else on your mind? Get in touch ↗</a></section></Base>

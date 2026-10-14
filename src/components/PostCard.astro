@@ -1,0 +1,8 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props { post: CollectionEntry<'blog'>; }
+const { post }=Astro.props;
+const smallImage=post.data.image?.replace('.webp','-480.webp');
+const mediumImage=post.data.image?.replace('.webp','-960.webp');
+---
+<a class="post-card" href={`/blog/${post.id}/`}>{post.data.image && <div class="post-cover"><img src={smallImage} srcset={`${smallImage} 480w, ${mediumImage} 960w, ${post.data.image} 1280w`} sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 800px) 40vw, 400px" alt={post.data.imageAlt} width="1280" height="720" loading="lazy" decoding="async" /></div>}<div class="post-body"><p class="post-meta"><span>{post.data.category}</span><time datetime={post.data.date.toISOString()}>{post.data.date.toLocaleDateString('en-GB',{timeZone:'UTC',day:'numeric',month:'short',year:'numeric'})}</time></p><h3>{post.data.title}</h3><p>{post.data.description}</p><span class="text-link">Read the article <span aria-hidden="true">↗</span></span></div></a>
