@@ -48,5 +48,10 @@
     "slug": "choose-the-right-website-hosting-plan",
     "tool": "built-in image generation",
     "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 editorial illustration of three hosting choices as a coherent miniature architectural scene: on the left one navy server cabinet with several small cream browser windows sharing compartments, in the center a standalone navy server tower with an amber key beside it, on the right a soft sculptural slate blue cloud holding a browser window with small connected amber deployment blocks. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting and natural shadows. Midnight navy, muted slate blue, warm cream background and amber accents. Centered subjects, generous breathing room, equal emphasis to the three options, not a ranking. No text, lettering, words, numbers, logos or watermark. Conceptual illustration, not a literal product screenshot."
+  },
+  {
+    "slug": "cloudflare-for-a-mostly-static-website",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration: a central cream browser window with navy header, a protective amber shield and a soft slate-blue cloud behind it, connected by fine navy paths to three small browser-and-image tile clusters distributed nearby; a small navy origin server sits farther back. Show a static website delivered through nearby edge copies and a protective network layer. Polished tactile 3D editorial illustration, restrained geometric forms, matte surfaces, subtle paper texture, warm studio lighting, natural shadows. Midnight navy, muted slate blue, warm cream background, amber accents matching a full-stack developer portfolio. Center main subjects, generous breathing room. No text, lettering, words, numbers, logos, watermark, or literal vendor branding. Conceptual illustration, not a product screenshot."
   }
 ]
