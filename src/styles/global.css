@@ -538,9 +538,15 @@ body { font-size: 17px; }
 .profile-social-links { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; margin-top: 20px; }
 .profile-social-links .text-link { margin-top: 0; }
 
-.google-form-panel { min-width: 0; }
-.google-form-embed { display: block; width: 100%; height: 1086px; border: 0; }
-.google-form-panel .form-privacy { margin: 16px 0; }
+.form-panel { min-width: 0; width: 100%; }
+formester-standard-form { display: block; width: 100%; height: 820px; border: 0; }
+formester-standard-form iframe { width: 100% !important; height: 820px !important; border: 0 !important; display: block; }
+.form-panel .form-privacy { margin: 16px 0 8px; }
+
+@media (max-width: 600px) {
+  formester-standard-form { height: 870px; }
+  formester-standard-form iframe { height: 870px !important; }
+}
 
 .whatsapp-float {
   bottom: max(24px, env(safe-area-inset-bottom)); right: 24px;
@@ -557,6 +563,154 @@ body { font-size: 17px; }
 .whatsapp-button img { flex-shrink: 0; }
 .whatsapp-button { background: #fff; color: #075e54; border-color: #b5ddc5; }
 @media (max-width: 600px) {
-  .whatsapp-float { right: 18px; bottom: max(18px, env(safe-area-inset-bottom)); gap: 10px; padding: 7px 16px 7px 7px; }
-  .whatsapp-float-icon { width: 32px; height: 32px; }
+  .whatsapp-float { right: 16px; bottom: max(16px, env(safe-area-inset-bottom)); gap: 8px; padding: 6px 14px 6px 6px; }
+  .whatsapp-float-icon { width: 30px; height: 30px; }
+  .whatsapp-float-copy strong { font-size: 13px; }
 }
+
+/* Blog Lead CTA & Author Card */
+.blog-author-cta {
+  margin-top: 55px;
+  padding: 36px;
+  background: #f3f6f7;
+  border: 1px solid #d4dde2;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.blog-author-info {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+.blog-author-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 12px #10202a15;
+}
+.blog-author-info .eyebrow {
+  margin-bottom: 8px;
+  color: #5c7482;
+  font-size: 11px;
+}
+.blog-author-info h3 {
+  font-size: 24px;
+  letter-spacing: -.6px;
+  margin-bottom: 12px;
+  color: var(--ink);
+}
+.blog-author-info p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #4b5f6b;
+  margin-bottom: 0;
+}
+.blog-author-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  border-top: 1px solid #d8e1e6;
+}
+@media (max-width: 650px) {
+  .blog-author-cta { padding: 24px; gap: 20px; }
+  .blog-author-info { flex-direction: column; gap: 16px; }
+  .blog-author-avatar { width: 64px; height: 64px; }
+  .blog-author-info h3 { font-size: 20px; }
+  .blog-author-info p { font-size: 15px; }
+  .blog-author-actions { gap: 16px; }
+}
+
+/* Case Studies Section */
+.case-studies-section {
+  background: #fafaf8;
+  border-top: 1px solid var(--line);
+}
+.case-heading-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  text-align: right;
+}
+.case-studies-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 10px;
+}
+.case-study-card {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  background: #fff;
+  border: 1px solid #dce4e8;
+  border-radius: 10px;
+  transition: border-color .2s, transform .2s;
+}
+.case-study-card:hover {
+  border-color: #9cb1bf;
+  transform: translateY(-2px);
+}
+.case-study-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.case-category {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #557283;
+}
+.case-study-card h3 {
+  font-size: 22px;
+  letter-spacing: -.6px;
+  margin-bottom: 18px;
+  color: var(--ink);
+  line-height: 1.35;
+}
+.case-study-body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+  flex: 1;
+}
+.case-detail {
+  font-size: 14px;
+  line-height: 1.65;
+  color: #4b606c;
+}
+.case-detail strong {
+  display: inline;
+  color: var(--ink);
+  font-weight: 700;
+  margin-right: 4px;
+}
+.case-detail p {
+  display: inline;
+  margin: 0;
+}
+.case-detail.case-outcome {
+  background: #f2f7f4;
+  border-left: 3px solid #2e7d54;
+  padding: 10px 14px;
+  border-radius: 0 4px 4px 0;
+  color: #1a4d33;
+}
+.case-detail.case-outcome strong {
+  color: #1a4d33;
+}
+@media (max-width: 900px) {
+  .case-studies-grid { grid-template-columns: 1fr; }
+  .case-heading-side { align-items: flex-start; text-align: left; }
+}
+

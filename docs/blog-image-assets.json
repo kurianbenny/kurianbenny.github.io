@@ -250,5 +250,26 @@
     "height": 270,
     "bytes": 16094,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/first-note.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 25758,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/first-note-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 17602,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/first-note-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 6900,
+    "quality": 84
   }
 ]

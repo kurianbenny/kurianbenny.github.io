@@ -11,4 +11,5 @@ export const emailReady = contact.emailEnabled && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.t
 export const whatsappReady = contact.whatsappEnabled && /^[1-9]\d{7,14}$/.test(contact.whatsappNumber) && contact.whatsappNumber !== '910000000000';
 export const whatsappUrl = whatsappReady ? `https://wa.me/${contact.whatsappNumber}?text=${encodeURIComponent(contact.whatsappMessage)}` : undefined;
 
-export const googleFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScsX6aH2n2ELtd-v-2LvINIUEC8UUSNXSfK7pZcg2skOx52ZA/viewform';
+export const formesterFormUrl = 'https://pgaduzqo.formester.com/f/x8BFhaQoK';
+export const formesterId = 'x8BFhaQoK';

@@ -25,21 +25,21 @@ Keep filenames lowercase with hyphens and use flat content folders. Frontmatter 
 
 The included workflow builds and deploys pushes to `master` and can be run manually. In repository Settings → Pages, select **GitHub Actions** as the source. Verify the deployment branch before pushing if using a different branch. `astro.config.mjs` uses the root user-site domain, so no repository base path is needed. Nothing has been pushed or deployed by the local rebuild.
 
-The contact page includes Google Forms, email, WhatsApp, GitHub, and LinkedIn contact options. Service and article copy should be reviewed before publication.
+The contact page includes a Formester contact form, email, WhatsApp, GitHub, and LinkedIn contact options. Service and article copy should be reviewed before publication.
 
 Deployment approach reference: [Astro GitHub Pages guide](https://docs.astro.build/en/guides/deploy/github/).
 
 ## Contact form and WhatsApp setup
 
-The contact page embeds Google Forms, with a responsive iframe and a link to open the form directly. `googleFormUrl` in `src/config/contact.ts` controls the form. Manage questions, response access, notifications, and submission confirmation in Google Forms. Form submissions have not been tested locally.
+The contact page embeds Formester via its standard widget, with auto-height and a direct link to open the form in a new tab. `formesterFormUrl` and `formesterId` in `src/config/contact.ts` control the form. Manage questions, email notifications, and submissions in Formester.
 
-The same config holds the public email (`kurianbenny@gmail.com`) and WhatsApp number (`919496368053`). Both channels are enabled independently of the Google Form. The floating button uses the official WhatsApp logo with a decorative halo.
+The same config holds the public email (`kurianbenny@gmail.com`) and WhatsApp number (`919496368053`). Both channels are enabled independently of the form. The floating button uses the official WhatsApp logo with a decorative halo.
 
 1. Replace `email` with the real inbox and set `emailEnabled: true` to enable the email link.
 2. Replace `whatsappNumber` with international digits, without `+` or spaces, and set `whatsappEnabled: true`. Update `whatsappMessage` if desired.
 3. Rebuild. Placeholder checks prevent enabling the example email and number by accident.
 
-The privacy page explains Google Forms processing and the other contact channels.
+The privacy page explains Formester processing and the other contact channels.
 
 ## Search and AI search foundations
 
@@ -69,6 +69,6 @@ All 36 current WebP files are below 400,000 bytes. Image measurements are record
 
 ## Microsoft Clarity
 
-The shared head in `src/layouts/Base.astro` loads the official asynchronous tracking snippet for project `yxlkv78ov4`. It runs only on `https://kurianbenny.github.io`, excluding localhost and preview hosts. This uses the manual installation method, so the NPM SDK is not needed. If the production domain changes, update the origin guard. The Google Form panel has `data-clarity-mask="True"`, and the privacy page discloses analytics.
+The shared head in `src/layouts/Base.astro` loads the official asynchronous tracking snippet for project `yxlkv78ov4`. It runs only on `https://kurianbenny.github.io`, excluding localhost and preview hosts. This uses the manual installation method, so the NPM SDK is not needed. If the production domain changes, update the origin guard. The contact form panel has `data-clarity-mask="True"`, and the privacy page discloses analytics.
 
 After deploying, verify requests to `https://www.clarity.ms/collect` and activity in the Clarity dashboard. Dashboard collection and project consent settings have not been verified locally. See [Microsoft’s installation guide](https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup).

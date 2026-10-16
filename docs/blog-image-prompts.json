@@ -58,5 +58,10 @@
     "slug": "why-ai-development-still-needs-a-professional",
     "tool": "built-in image generation",
     "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration of professional guidance in AI-assisted software development: a small friendly abstract robotic arm offers a tangled pile of navy and amber modular interface blocks; a human hand carefully arranges matching blocks into one clean cream browser window on the right, beside a small protective shield and magnifying glass. Show review, deliberate organization and collaboration, not an evil robot or fear imagery. Polished tactile 3D editorial illustration, restrained geometric forms, matte surfaces, subtle paper texture, warm studio lighting, natural shadows. Midnight navy, muted slate blue, warm cream background, amber accents consistent with a full-stack developer portfolio. Center subjects, generous breathing room. No text, lettering, words, numbers, logos, watermark or literal software screenshots."
+  },
+  {
+    "slug": "first-note",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 editorial illustration of an engineer's tactile workbench with connected modular building blocks: on the left, geometric interface frames in muted slate blue and cream; in the center, robust navy database and backend cylinders with fine amber connecting circuits; on the right, a protective cloud and server tower symbolizing production deployment. Polished tactile 3D editorial illustration with restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered subjects with generous breathing room. No text, lettering, numbers, logos, watermarks, or literal software screenshots."
   }
 ]

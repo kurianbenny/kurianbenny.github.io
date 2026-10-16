@@ -45,4 +45,19 @@ if(toggle && nav){
  nav.addEventListener('click',event=>{if((event.target as HTMLElement).closest('a')) closeMenu();});
  document.addEventListener('keydown',event=>{if(event.key==='Escape' && toggle.getAttribute('aria-expanded')==='true'){closeMenu();toggle.focus();}});
 }
+document.addEventListener('click', (event) => {
+ const anchor = (event.target as HTMLElement).closest('a');
+ if (!anchor) return;
+ const href = anchor.getAttribute('href') || '';
+ const clarity = (window as any).clarity;
+ if (typeof clarity === 'function') {
+  if (href.includes('wa.me')) {
+   clarity('event', 'whatsapp_click');
+  } else if (href.startsWith('mailto:')) {
+   clarity('event', 'email_click');
+  } else if (href === '/contact/' || href.startsWith('/contact/')) {
+   clarity('event', 'contact_cta_click');
+  }
+ }
+});
 </script></body></html>
