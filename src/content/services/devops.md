@@ -1,7 +1,7 @@
 ---
 title: "Cloud, DevOps & server management"
 description: "AWS, DigitalOcean, VPS hosting, server management, and deployment for web applications."
-order: 4
+order: 6
 label: "DELIVERY & OPERATIONS"
 ---
 ## Think beyond the code

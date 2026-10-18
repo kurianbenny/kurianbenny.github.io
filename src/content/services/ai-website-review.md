@@ -1,7 +1,7 @@
 ---
 title: "AI website review & launch readiness"
 description: "Turn an AI-assisted draft into a website you can understand, publish, and maintain."
-order: 6
+order: 8
 label: "REVIEW & LAUNCH"
 ---
 

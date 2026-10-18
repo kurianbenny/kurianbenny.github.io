@@ -1,7 +1,7 @@
 ---
 title: "Websites & technical SEO"
 description: "Build a clear business website and give its content a sound technical foundation for discovery."
-order: 5
+order: 7
 label: "WEBSITES & VISIBILITY"
 ---
 

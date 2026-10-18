@@ -18,8 +18,8 @@ My development background spans several ecosystems:
 - **CMS platforms:** WordPress and Drupal for content-driven websites.
 - **Python:** Django Ninja and FastAPI for backend APIs and services.
 - **Ruby:** Ruby on Rails for web application development.
-- **Business software:** ERPNext and the workflows and integrations around it.
-- **Databases:** MySQL and NoSQL for application data, business workflows, and integrations.
+- **Business software:** ERPNext and Odoo customization, along with the workflows and integrations around them.
+- **Databases & analytics:** MySQL and NoSQL for application data, and Metabase for business intelligence and data dashboards.
 
 ## Cloud infrastructure and DevOps
 
@@ -31,7 +31,7 @@ These technologies serve different purposes. The starting point for a project is
 
 ## The work I can help with
 
-My services cover full-stack web application development, backend APIs across PHP, Python, and Ruby, CMS websites, ERPNext workflows, cloud hosting, and DevOps. I also offer technical website reviews, including SEO foundations and the practical questions that come with launching an AI-assisted website.
+My services cover full-stack web application development, backend APIs across PHP, Python, and Ruby, CMS websites, ERPNext and Odoo customization, Metabase data analytics, cloud hosting, and DevOps. I also offer technical website reviews, including SEO foundations and the practical questions that come with launching an AI-assisted website.
 
 Sometimes the useful next step is a new feature. Sometimes it is improving an existing application or making the path to production easier to understand. The scope should follow the problem.
 
