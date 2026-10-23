@@ -63,5 +63,20 @@
     "slug": "first-note",
     "tool": "built-in image generation",
     "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 editorial illustration of an engineer's tactile workbench with connected modular building blocks: on the left, geometric interface frames in muted slate blue and cream; in the center, robust navy database and backend cylinders with fine amber connecting circuits; on the right, a protective cloud and server tower symbolizing production deployment. Polished tactile 3D editorial illustration with restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered subjects with generous breathing room. No text, lettering, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "patch-critical-php-rce-vulnerabilities",
+    "tool": "built-in image generation",
+    "prompt": "Editorial 3D illustration of a cloud server rack with a glowing security shield and code patch icon. Wide landscape 16:9 conceptual editorial illustration. Palette: midnight navy, muted slate blue, warm cream background, and amber accents."
+  },
+  {
+    "slug": "patch-laravel-tokenguard-api-auth-bypass",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing API token authentication and database security: on a warm cream surface, a central sculpted midnight-navy database cylinder with soft geometric ridges and fine amber circuit inlays, flanked by an architectural muted slate blue API gateway archway; in the foreground sits a tactile amber security key nestled beside a protective shield. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous negative space. No text, lettering, words, numbers, logos, watermarks, or literal screenshots."
+  },
+  {
+    "slug": "patch-nodejs-brotli-rce-and-tls-vulnerabilities",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing secure data transmission and decompression: on a warm cream surface, a stylized tactile midnight-navy server module connected to a neatly folded, layered geometric data packet in muted slate blue with amber edge accents; a protective translucent amber security ring floats around the junction, symbolizing verified TLS encryption and safe payload inspection. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
   }
 ]

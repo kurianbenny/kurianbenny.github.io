@@ -271,5 +271,68 @@
     "height": 270,
     "bytes": 6900,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-critical-php-rce-vulnerabilities.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 114118,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-critical-php-rce-vulnerabilities-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 74288,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-critical-php-rce-vulnerabilities-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 25972,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-laravel-tokenguard-api-auth-bypass.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 17972,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-laravel-tokenguard-api-auth-bypass-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 12234,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-laravel-tokenguard-api-auth-bypass-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 5472,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-nodejs-brotli-rce-and-tls-vulnerabilities.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 27662,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-nodejs-brotli-rce-and-tls-vulnerabilities-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 18558,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-nodejs-brotli-rce-and-tls-vulnerabilities-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 7476,
+    "quality": 84
   }
 ]
