@@ -78,5 +78,15 @@
     "slug": "patch-nodejs-brotli-rce-and-tls-vulnerabilities",
     "tool": "built-in image generation",
     "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing secure data transmission and decompression: on a warm cream surface, a stylized tactile midnight-navy server module connected to a neatly folded, layered geometric data packet in muted slate blue with amber edge accents; a protective translucent amber security ring floats around the junction, symbolizing verified TLS encryption and safe payload inspection. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "patch-ruby-regex-engine-gitlab-rce",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing secure software patching in Ruby and server pipelines: on a warm cream surface, a stylized tactile midnight-navy server module and code compiler cylinder connected by fine amber circuits; beside it, a geometric slate-blue pattern block being inspected and reinforced with an amber security patch shield. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "railway-security-advisory-rotating-compromised-secrets",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing cloud environment variables and secrets rotation: on a warm cream surface, a tactile midnight-navy cloud hosting container box connected to a row of small glowing amber cryptographic keys and lock cylinders; one old key is being neatly replaced by a new glowing geometric security key under a soft protective shield. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
   }
 ]

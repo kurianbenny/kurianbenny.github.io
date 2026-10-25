@@ -334,5 +334,47 @@
     "height": 270,
     "bytes": 7476,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-ruby-regex-engine-gitlab-rce.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 23842,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-ruby-regex-engine-gitlab-rce-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 15774,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-ruby-regex-engine-gitlab-rce-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 6332,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/railway-security-advisory-rotating-compromised-secrets.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 21032,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/railway-security-advisory-rotating-compromised-secrets-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 13990,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/railway-security-advisory-rotating-compromised-secrets-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 5866,
+    "quality": 84
   }
 ]
