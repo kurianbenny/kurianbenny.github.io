@@ -88,5 +88,20 @@
     "slug": "railway-security-advisory-rotating-compromised-secrets",
     "tool": "built-in image generation",
     "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing cloud environment variables and secrets rotation: on a warm cream surface, a tactile midnight-navy cloud hosting container box connected to a row of small glowing amber cryptographic keys and lock cylinders; one old key is being neatly replaced by a new glowing geometric security key under a soft protective shield. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "gheist-github-actions-secrets-exfiltration",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing CI/CD pipeline automation and repository secrets security: on a warm cream surface, an architectural pipeline gateway in midnight navy with glowing amber data tracks; a stylized geometric vault lock cylinder in muted slate blue being guarded by a translucent amber security shield with glowing circuit paths. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "patch-nextcloud-collabora-online-rce",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing secure document collaboration and cloud server defense: on a warm cream surface, a central sculpted midnight-navy document server cylinder with neat layered slate-blue document tiles emerging from an open aperture; an amber hexagonal security patch shield firmly locks into the server module, protecting against command injection. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "dreamhost-security-incident-securing-credentials",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing web hosting security and credential rotation: on a warm cream surface, a tactile midnight-navy web hosting server box connected to an envelope mailbox module in muted slate blue; an old mechanical credential key is being replaced by a glowing amber cryptographic key and biometric lock cylinder under a soft protective shield. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
   }
 ]

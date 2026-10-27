@@ -376,5 +376,68 @@
     "height": 270,
     "bytes": 5866,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/gheist-github-actions-secrets-exfiltration.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 47264,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/gheist-github-actions-secrets-exfiltration-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 33110,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/gheist-github-actions-secrets-exfiltration-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 12848,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-nextcloud-collabora-online-rce.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 18244,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-nextcloud-collabora-online-rce-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 12218,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-nextcloud-collabora-online-rce-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 4982,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/dreamhost-security-incident-securing-credentials.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 23826,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/dreamhost-security-incident-securing-credentials-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 15606,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/dreamhost-security-incident-securing-credentials-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 6064,
+    "quality": 84
   }
 ]
