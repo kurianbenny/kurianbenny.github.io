@@ -439,5 +439,68 @@
     "height": 270,
     "bytes": 6064,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-magento-polyshell-cve-2026-48356.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 21440,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-magento-polyshell-cve-2026-48356-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 14582,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-magento-polyshell-cve-2026-48356-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 5354,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-wasmtime-sandbox-escape-vulnerabilities.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 36330,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-wasmtime-sandbox-escape-vulnerabilities-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 24878,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-wasmtime-sandbox-escape-vulnerabilities-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 9596,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/convertr-ecommerce-analytics-supply-chain-attack.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 32732,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/convertr-ecommerce-analytics-supply-chain-attack-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 22882,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/convertr-ecommerce-analytics-supply-chain-attack-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 10116,
+    "quality": 84
   }
 ]

@@ -103,5 +103,20 @@
     "slug": "dreamhost-security-incident-securing-credentials",
     "tool": "built-in image generation",
     "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing web hosting security and credential rotation: on a warm cream surface, a tactile midnight-navy web hosting server box connected to an envelope mailbox module in muted slate blue; an old mechanical credential key is being replaced by a glowing amber cryptographic key and biometric lock cylinder under a soft protective shield. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "patch-magento-polyshell-cve-2026-48356",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing e-commerce platform security and code injection defense: on a warm cream surface, a central sculpted midnight-navy online storefront cylinder with small modular shopping carts and slate-blue product cards; an amber hexagonal security patch shield locks into the storefront module, neutralizing an injection vector with fine glowing circuit paths. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "patch-wasmtime-sandbox-escape-vulnerabilities",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing WebAssembly runtime sandboxing and safe compiler code generation: on a warm cream surface, a central sculpted midnight-navy server processor core enclosed by an interlocking geometric glass-like amber isolation dome; delicate slate-blue bytecode instruction tiles flow orderly along fine amber tracks without breaching the perimeter. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "convertr-ecommerce-analytics-supply-chain-attack",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing e-commerce checkout funnel protection and third-party script supply-chain verification: on a warm cream surface, a stylized midnight-navy checkout terminal module connected to a stream of slate-blue transaction cards; an amber subresource integrity verification ring floats over the script pipeline, filtering untrusted code blocks under a protective geometric shield. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
   }
 ]
