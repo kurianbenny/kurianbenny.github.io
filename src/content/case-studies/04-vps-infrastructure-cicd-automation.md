@@ -20,6 +20,8 @@ metrics:
   - label: "Backup Verification"
     value: "Automated"
 date: 2026-06-12
+image: "/images/case-studies/04-vps-infrastructure-cicd-automation.webp"
+imageAlt: "Tactile 3D editorial illustration of a reinforced cloud server array with automated security shields, continuous delivery testing gates, and encrypted backup vault."
 ---
 
 ## Executive Summary

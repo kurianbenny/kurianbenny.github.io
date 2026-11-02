@@ -20,6 +20,8 @@ metrics:
   - label: "Integrated Suppliers"
     value: "12 APIs"
 date: 2026-05-20
+image: "/images/case-studies/03-erpnext-workflow-automation.webp"
+imageAlt: "Tactile 3D editorial illustration of an automated business operations routing system with inventory trays, interlocking gears, and supplier order conveyors."
 ---
 
 ## Executive Summary

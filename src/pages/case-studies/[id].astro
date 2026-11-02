@@ -31,12 +31,20 @@ const schema = {
     "@id": new URL("/#person", Astro.site).href
   },
   "url": canonicalUrl,
+  "image": entry.data.image ? new URL(entry.data.image, Astro.site).href : undefined,
   "datePublished": entry.data.date ? entry.data.date.toISOString() : undefined,
   "inLanguage": "en"
 };
 ---
 
-<Base title={title} description={description} schema={schema}>
+<Base
+  title={title}
+  description={description}
+  image={entry.data.image}
+  imageAlt={entry.data.imageAlt}
+  articleDate={entry.data.date ? entry.data.date.toISOString() : undefined}
+  schema={schema}
+>
   <article class="wrap article section case-study-article">
     <div class="case-study-nav-top">
       <a class="text-link" href="/case-studies/">← All case studies</a>
@@ -50,6 +58,21 @@ const schema = {
       <h1>{entry.data.title}</h1>
       <p class="page-intro">{entry.data.description}</p>
     </header>
+
+    {entry.data.image && (
+      <figure class="article-cover">
+        <img
+          src={entry.data.image}
+          srcset={`${entry.data.image.replace('.webp', '-480.webp')} 480w, ${entry.data.image.replace('.webp', '-960.webp')} 960w, ${entry.data.image} 1280w`}
+          sizes="(max-width: 900px) calc(100vw - 40px), 850px"
+          alt={entry.data.imageAlt ?? entry.data.title}
+          width="1280"
+          height="720"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </figure>
+    )}
 
     <div class="case-study-executive-summary">
       <div class="executive-summary-heading">

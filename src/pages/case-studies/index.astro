@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import TechIcon from '../../components/TechIcon.astro';
+import CaseStudyCard from '../../components/CaseStudyCard.astro';
 import { getCollection } from 'astro:content';
 
 const caseStudies = (await getCollection('caseStudies', ({ data }) => !data.draft))
@@ -18,63 +18,9 @@ const description = 'In-depth case studies and architectural breakdowns: legacy 
       In-depth technical breakdowns of projects I've engineered—diving into initial bottlenecks, architecture decisions, step-by-step implementation, and measurable business outcomes.
     </p>
 
-    <div class="case-study-list">
+    <div class="case-cards-grid">
       {caseStudies.map((item) => (
-        <article class="case-study-entry">
-          <div class="case-study-entry-header">
-            <div class="case-study-entry-meta">
-              <span class="card-number">{item.data.number}</span>
-              <span class="case-category">{item.data.category}</span>
-              {item.data.clientType && (
-                <span class="case-client-type">/ {item.data.clientType}</span>
-              )}
-            </div>
-            <h2>
-              <a href={`/case-studies/${item.id}/`}>{item.data.title}</a>
-            </h2>
-            <p class="case-study-entry-desc">{item.data.description}</p>
-          </div>
-
-          {item.data.metrics && item.data.metrics.length > 0 && (
-            <div class="case-metrics-grid">
-              {item.data.metrics.map((metric) => (
-                <div class="case-metric-box">
-                  <strong>{metric.value}</strong>
-                  <span>{metric.label}</span>
-                </div>
-              ))}
-            </div>
-          )}
-
-          <div class="case-study-summary-grid">
-            <div class="case-summary-col">
-              <strong>Challenge</strong>
-              <p>{item.data.challenge}</p>
-            </div>
-            <div class="case-summary-col">
-              <strong>Solution</strong>
-              <p>{item.data.solution}</p>
-            </div>
-            <div class="case-summary-col case-summary-outcome">
-              <strong>Outcome</strong>
-              <p>{item.data.outcome}</p>
-            </div>
-          </div>
-
-          <div class="case-study-entry-footer">
-            <div class="tags">
-              {item.data.technologies.map((tech) => (
-                <span>
-                  <TechIcon name={tech} />
-                  {tech}
-                </span>
-              ))}
-            </div>
-            <a class="button case-read-button" href={`/case-studies/${item.id}/`}>
-              Read case study <span>→</span>
-            </a>
-          </div>
-        </article>
+        <CaseStudyCard caseStudy={item} />
       ))}
     </div>
 

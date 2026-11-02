@@ -20,6 +20,8 @@ metrics:
   - label: "Test Coverage"
     value: "92%"
 date: 2026-04-10
+image: "/images/case-studies/02-saas-dashboard-api-architecture.webp"
+imageAlt: "Tactile 3D editorial illustration of a sculpted glass SaaS tablet dashboard with real-time graphs connected to a high-speed Python and Redis telemetry engine."
 ---
 
 ## Executive Summary

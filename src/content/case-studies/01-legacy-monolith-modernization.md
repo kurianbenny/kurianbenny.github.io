@@ -20,6 +20,8 @@ metrics:
   - label: "Monthly Infra Cost"
     value: "-28%"
 date: 2026-03-15
+image: "/images/case-studies/01-legacy-monolith-modernization.webp"
+imageAlt: "Tactile 3D editorial illustration of a vintage mechanical server monolith transforming into modern cloud container modules and database clusters."
 ---
 
 ## Executive Summary
