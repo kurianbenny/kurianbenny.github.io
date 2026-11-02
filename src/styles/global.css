@@ -677,6 +677,15 @@ formester-standard-form iframe { width: 100% !important; height: 820px !importan
   color: var(--ink);
   line-height: 1.35;
 }
+.case-study-card h3 a {
+  color: inherit;
+  transition: color .2s;
+}
+.case-study-card h3 a:hover {
+  color: #2c566e;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
 .case-study-body {
   display: flex;
   flex-direction: column;
