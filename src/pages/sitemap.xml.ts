@@ -7,6 +7,8 @@ export const GET: APIRoute = async ({ site }) => {
  const caseStudies=await getCollection('caseStudies',({data})=>!data.draft);
  const totalPages=Math.ceil(posts.length/9);
  const blogPages=Array.from({length:totalPages-1},(_,i)=>`/blog/${i+2}/`);
- const routes=['/about/','/','/services/','/case-studies/','/blog/',...blogPages,'/faq/','/contact/','/privacy/',...services.map(s=>`/services/${s.id}/`),...caseStudies.map(c=>`/case-studies/${c.id}/`),...posts.map(p=>`/blog/${p.id}/`)];
+ const totalCaseStudyPages=Math.ceil(caseStudies.length/2);
+ const caseStudyPages=Array.from({length:totalCaseStudyPages-1},(_,i)=>`/case-studies/${i+2}/`);
+ const routes=['/about/','/','/services/','/case-studies/',...caseStudyPages,'/blog/',...blogPages,'/faq/','/contact/','/privacy/',...services.map(s=>`/services/${s.id}/`),...caseStudies.map(c=>`/case-studies/${c.id}/`),...posts.map(p=>`/blog/${p.id}/`)];
  return new Response(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.map(path=>`<url><loc>${escapeXml(new URL(path,site).href)}</loc></url>`).join('')}</urlset>`,{headers:{'Content-Type':'application/xml; charset=utf-8'}});
 };
