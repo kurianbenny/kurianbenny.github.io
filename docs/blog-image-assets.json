@@ -502,5 +502,68 @@
     "height": 270,
     "bytes": 10116,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-lxd-microcloud-mtls-auth-bypass-cve-2026-112816.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 20200,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-lxd-microcloud-mtls-auth-bypass-cve-2026-112816-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 13572,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-lxd-microcloud-mtls-auth-bypass-cve-2026-112816-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 5432,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-langflow-unauthenticated-rce-and-mcp-flaws.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 43102,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-langflow-unauthenticated-rce-and-mcp-flaws-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 31526,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-langflow-unauthenticated-rce-and-mcp-flaws-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 13658,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-ivanti-connect-secure-zero-days-cve-2026-111357.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 46042,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-ivanti-connect-secure-zero-days-cve-2026-111357-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 33082,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-ivanti-connect-secure-zero-days-cve-2026-111357-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 14134,
+    "quality": 84
   }
 ]
