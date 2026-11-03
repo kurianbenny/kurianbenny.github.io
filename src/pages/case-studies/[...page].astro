@@ -7,7 +7,7 @@ import CaseStudyCard from '../../components/CaseStudyCard.astro';
 
 export const getStaticPaths = (async ({ paginate }) => {
   const caseStudies = (await getCollection('caseStudies', ({ data }) => !data.draft))
-    .sort((a, b) => a.data.order - b.data.order);
+    .sort((a, b) => (b.data.date?.valueOf() ?? 0) - (a.data.date?.valueOf() ?? 0) || b.data.order - a.data.order);
   return paginate(caseStudies, { pageSize: 2 });
 }) satisfies GetStaticPaths;
 

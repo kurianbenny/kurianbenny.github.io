@@ -49,9 +49,9 @@ export const caseStudies: CaseStudy[] = [
     number: '05',
     category: 'FULL-STACK & E-COMMERCE',
     title: 'Modern Full-Stack Restaurant Platform: Real-Time Bookings & E-Commerce',
-    challenge: 'A New Zealand restaurant relied on an outdated, rigid PHP website that lacked real-time table reservations, holiday scheduling, and direct food ordering—forcing manual phone bookings and third-party aggregator commissions.',
-    solution: 'Architected a custom full-stack platform using Next.js and Prisma with MySQL, featuring automated calendar and holiday management, instant WhatsApp and email notifications, takeaway cart checkout with coupon promotions, and Docker deployment on a hardened low-cost VPS protected by Cloudflare.',
-    outcome: 'Eliminated phone-booking bottlenecks, increased direct takeaway orders by 40%, saved thousands in aggregator commissions, and achieved sub-second page loads with zero booking conflicts.',
-    technologies: ['Next.js', 'MySQL', 'Docker', 'Cloudflare', 'Prisma']
+    challenge: 'A New Zealand restaurant relied on an outdated, rigid PHP website that lacked real-time table reservations, holiday scheduling, online payment processing, and direct food ordering—forcing manual phone bookings, unpaid order risks, and third-party aggregator commissions.',
+    solution: 'Architected a custom full-stack platform using Next.js and Prisma with MySQL, featuring automated calendar and holiday management, secure Stripe payment gateway integration for takeaway orders and booking deposits, instant WhatsApp and email notifications, and Docker deployment on a hardened low-cost VPS protected by Cloudflare.',
+    outcome: 'Eliminated phone-booking bottlenecks, increased direct takeaway orders by 40%, saved thousands in aggregator commissions, secured 100% upfront payment on online orders, and achieved sub-second page loads with zero booking conflicts.',
+    technologies: ['Next.js', 'MySQL', 'Stripe', 'Docker', 'Cloudflare', 'Prisma']
   }
 ];
