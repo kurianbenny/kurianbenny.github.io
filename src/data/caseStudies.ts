@@ -44,5 +44,14 @@ export const caseStudies: CaseStudy[] = [
     solution: 'Designed an automated GitHub Actions CI/CD pipeline, configured hardened Linux environments with Nginx reverse proxying, and implemented automated encrypted offsite backups.',
     outcome: 'Reduced deployment times from 45 minutes to 3 minutes, giving the team confidence to release updates multiple times a week.',
     technologies: ['AWS', 'DigitalOcean', 'Linux', 'Nginx', 'CI/CD']
+  },
+  {
+    number: '05',
+    category: 'FULL-STACK & E-COMMERCE',
+    title: 'Modern Full-Stack Restaurant Platform: Real-Time Bookings & E-Commerce',
+    challenge: 'A New Zealand restaurant relied on an outdated, rigid PHP website that lacked real-time table reservations, holiday scheduling, and direct food ordering—forcing manual phone bookings and third-party aggregator commissions.',
+    solution: 'Architected a custom full-stack platform using Next.js and Prisma with MySQL, featuring automated calendar and holiday management, instant WhatsApp and email notifications, takeaway cart checkout with coupon promotions, and Docker deployment on a hardened low-cost VPS protected by Cloudflare.',
+    outcome: 'Eliminated phone-booking bottlenecks, increased direct takeaway orders by 40%, saved thousands in aggregator commissions, and achieved sub-second page loads with zero booking conflicts.',
+    technologies: ['Next.js', 'MySQL', 'Docker', 'Cloudflare', 'Prisma']
   }
 ];
