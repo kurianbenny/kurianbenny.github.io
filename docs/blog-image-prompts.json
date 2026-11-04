@@ -133,5 +133,15 @@
     "slug": "patch-ivanti-connect-secure-zero-days-cve-2026-111357",
     "tool": "built-in image generation",
     "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing enterprise edge network gateway security and zero-day defense: on a warm cream surface, a sturdy midnight-navy network appliance vault tower connected to sleek slate-blue ingress channels; a multi-layered interlocking amber biometric shield and cryptographic verification ring encircle the gateway perimeter, preventing unauthorized privilege escalation. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "llmjacking-cloud-credentials-ai-infrastructure-charges",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing cloud AI infrastructure protection and LLMjacking defense: on a warm cream surface, a sculpted midnight-navy cloud server cluster tower with fine amber circuit pathways connecting to a glowing neural model node; an amber cryptographic token shield and lock ring hover at the gateway, blocking unauthorized token routing and credential drainage. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "patch-barracuda-esg-waf-root-takeover-cve-2026-116606",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing enterprise email gateway and web application firewall security: on a warm cream surface, a central sculpted midnight-navy network firewall vault tower flanked by sleek slate-blue ingress channels; an interlocking amber hexagonal security patch shield with glowing circuit paths firmly locks onto the appliance perimeter, isolating privilege escalation vectors. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
   }
 ]

@@ -565,5 +565,47 @@
     "height": 270,
     "bytes": 14134,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/llmjacking-cloud-credentials-ai-infrastructure-charges.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 30878,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/llmjacking-cloud-credentials-ai-infrastructure-charges-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 21052,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/llmjacking-cloud-credentials-ai-infrastructure-charges-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 8570,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-barracuda-esg-waf-root-takeover-cve-2026-116606.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 20116,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-barracuda-esg-waf-root-takeover-cve-2026-116606-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 13406,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-barracuda-esg-waf-root-takeover-cve-2026-116606-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 5604,
+    "quality": 84
   }
 ]
