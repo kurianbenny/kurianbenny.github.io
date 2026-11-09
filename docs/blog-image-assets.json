@@ -607,5 +607,68 @@
     "height": 270,
     "bytes": 5604,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-wordpress-core-upgrade-race-condition-cve-2026-119977.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 28678,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-wordpress-core-upgrade-race-condition-cve-2026-119977-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 19306,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-wordpress-core-upgrade-race-condition-cve-2026-119977-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 7178,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-sonicwall-sonicos-sslvpn-saml-mfa-bypass-cve-2026-19868.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 25342,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-sonicwall-sonicos-sslvpn-saml-mfa-bypass-cve-2026-19868-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 17776,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-sonicwall-sonicos-sslvpn-saml-mfa-bypass-cve-2026-19868-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 7704,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/claude-code-local-settings-credentials-exposure.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 34300,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/claude-code-local-settings-credentials-exposure-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 22746,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/claude-code-local-settings-credentials-exposure-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 9118,
+    "quality": 84
   }
 ]
