@@ -670,5 +670,68 @@
     "height": 270,
     "bytes": 9118,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-xen-orchestra-authentication-bypass-vsa-2026-062.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 28170,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-xen-orchestra-authentication-bypass-vsa-2026-062-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 19824,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-xen-orchestra-authentication-bypass-vsa-2026-062-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 9214,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-git-recursive-clone-integer-truncation-cve-2026-111760.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 22606,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-git-recursive-clone-integer-truncation-cve-2026-111760-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 15614,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-git-recursive-clone-integer-truncation-cve-2026-111760-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 6696,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/grok-ai-built-apps-leak-credentials-database-security.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 28868,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/grok-ai-built-apps-leak-credentials-database-security-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 19812,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/grok-ai-built-apps-leak-credentials-database-security-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 8696,
+    "quality": 84
   }
 ]
