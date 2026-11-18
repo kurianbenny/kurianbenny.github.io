@@ -733,5 +733,68 @@
     "height": 270,
     "bytes": 8696,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/optimizely-supply-chain-attack-javascript-injection.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 43402,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/optimizely-supply-chain-attack-javascript-injection-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 30278,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/optimizely-supply-chain-attack-javascript-injection-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 12752,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-oracle-java-openjdk-base64-rce-cve-2026-114938.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 41436,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-oracle-java-openjdk-base64-rce-cve-2026-114938-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 29448,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-oracle-java-openjdk-base64-rce-cve-2026-114938-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 11596,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-linux-kernel-noisytcp-remote-dos-cve-2026-99288.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 22352,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-linux-kernel-noisytcp-remote-dos-cve-2026-99288-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 14936,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-linux-kernel-noisytcp-remote-dos-cve-2026-99288-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 5756,
+    "quality": 84
   }
 ]
