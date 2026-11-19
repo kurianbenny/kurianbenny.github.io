@@ -188,5 +188,20 @@
     "slug": "patch-linux-kernel-noisytcp-remote-dos-cve-2026-99288",
     "tool": "built-in image generation",
     "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing Linux kernel networking stack stability, TCP packet parsing security, and server operating system hardening: on a warm cream surface (#faf9f6), a central midnight-navy (#182e3e) server rack tower with smooth geometric panels and slate-blue networking port blocks; a protective translucent amber firewall barrier with glowing circuit packet filters securely insulates the networking stack against malformed TCP segments. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "patch-nginx-http2-nginx2root-rce-cve-2026-123007",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Create one wide landscape editorial illustration, 16:9 composition: a midnight-navy web server engine module connected by fine amber network rails, protected by a layered cryptographic gateway shield on warm cream. Style: polished tactile 3D editorial illustration with restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural shadows. Palette: midnight navy, muted slate blue, warm cream background and amber accents, matching a professional full-stack developer portfolio. Fill the composition thoughtfully, keep the key subjects near the center so a wide 16:9 crop still works. No lettering, no words, no numbers, no logos, no watermark. This is a conceptual illustration, not a literal product screenshot."
+  },
+  {
+    "slug": "microsoft-agent-framework-pypi-supply-chain-credential-theft",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Create one wide landscape editorial illustration, 16:9 composition: a midnight-navy modular cube representing a Python AI agent framework with fine glowing tracks and floating digital key vaults, secured by an interlocking amber cryptographic shield on warm cream. Style: polished tactile 3D editorial illustration with restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural shadows. Palette: midnight navy, muted slate blue, warm cream background and amber accents, matching a professional full-stack developer portfolio. Fill the composition thoughtfully, keep the key subjects near the center so a wide 16:9 crop still works. No lettering, no words, no numbers, no logos, no watermark. This is a conceptual illustration, not a literal product screenshot."
+  },
+  {
+    "slug": "patch-puppet-enterprise-deserialization-rce-cve-2026-115731",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Create one wide landscape editorial illustration, 16:9 composition: a midnight-navy enterprise server master node orchestrating fine amber connection cables to multiple server cubes, fortified by a glowing amber shield on warm cream. Style: polished tactile 3D editorial illustration with restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural shadows. Palette: midnight navy, muted slate blue, warm cream background and amber accents, matching a professional full-stack developer portfolio. Fill the composition thoughtfully, keep the key subjects near the center so a wide 16:9 crop still works. No lettering, no words, no numbers, no logos, no watermark. This is a conceptual illustration, not a literal product screenshot."
   }
 ]

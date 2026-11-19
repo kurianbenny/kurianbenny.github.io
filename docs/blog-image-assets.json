@@ -796,5 +796,68 @@
     "height": 270,
     "bytes": 5756,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-nginx-http2-nginx2root-rce-cve-2026-123007.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 84386,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-nginx-http2-nginx2root-rce-cve-2026-123007-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 56632,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-nginx-http2-nginx2root-rce-cve-2026-123007-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 20330,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/microsoft-agent-framework-pypi-supply-chain-credential-theft.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 49018,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/microsoft-agent-framework-pypi-supply-chain-credential-theft-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 32884,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/microsoft-agent-framework-pypi-supply-chain-credential-theft-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 11914,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-puppet-enterprise-deserialization-rce-cve-2026-115731.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 49144,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-puppet-enterprise-deserialization-rce-cve-2026-115731-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 32766,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-puppet-enterprise-deserialization-rce-cve-2026-115731-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 12732,
+    "quality": 84
   }
 ]
