@@ -859,5 +859,68 @@
     "height": 270,
     "bytes": 12732,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/database-engine-memory-corruption-rce-postgresql-mysql-oracle.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 48326,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/database-engine-memory-corruption-rce-postgresql-mysql-oracle-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 34076,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/database-engine-memory-corruption-rce-postgresql-mysql-oracle-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 14290,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-check-point-gaia-os-dynamiccli-root-takeover-cve-2026-123039.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 28524,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-check-point-gaia-os-dynamiccli-root-takeover-cve-2026-123039-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 19826,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-check-point-gaia-os-dynamiccli-root-takeover-cve-2026-123039-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 8182,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-f5-big-ip-tmm-buffer-overflows-rce-cve-2026-123637.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 50926,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-f5-big-ip-tmm-buffer-overflows-rce-cve-2026-123637-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 36128,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-f5-big-ip-tmm-buffer-overflows-rce-cve-2026-123637-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 14028,
+    "quality": 84
   }
 ]
