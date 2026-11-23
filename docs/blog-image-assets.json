@@ -922,5 +922,68 @@
     "height": 270,
     "bytes": 14028,
     "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-linux-kvm-amd-host-memory-leak-cve-2026-99312.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 25544,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-linux-kvm-amd-host-memory-leak-cve-2026-99312-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 16820,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-linux-kvm-amd-host-memory-leak-cve-2026-99312-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 7040,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/ai-inference-gateway-prompt-theft-openrouter-incident.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 23100,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/ai-inference-gateway-prompt-theft-openrouter-incident-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 16324,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/ai-inference-gateway-prompt-theft-openrouter-incident-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 7116,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-vmware-vcenter-zero-day-auth-bypass-cve-2026-123890.webp",
+    "width": 1280,
+    "height": 720,
+    "bytes": 43304,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-vmware-vcenter-zero-day-auth-bypass-cve-2026-123890-960.webp",
+    "width": 960,
+    "height": 540,
+    "bytes": 29176,
+    "quality": 84
+  },
+  {
+    "file": "public/images/blog/patch-vmware-vcenter-zero-day-auth-bypass-cve-2026-123890-480.webp",
+    "width": 480,
+    "height": 270,
+    "bytes": 11968,
+    "quality": 84
   }
 ]

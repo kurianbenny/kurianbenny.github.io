@@ -218,5 +218,20 @@
     "slug": "patch-f5-big-ip-tmm-buffer-overflows-rce-cve-2026-123637",
     "tool": "built-in image generation",
     "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration representing high-throughput application delivery controllers, traffic microkernel memory safety, and buffer overflow prevention: on a warm cream surface (#faf9f6), a central midnight-navy (#182e3e) multi-rack load balancer module with fine amber routing tracks branching across geometric server blocks; an interlocking amber cryptographic shield with glowing packet filter gates securely insulates the processing plane. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural soft shadows. Palette: midnight navy (#182e3e), muted slate blue, warm cream background (#faf9f6), and amber accents (#efad70). Centered composition, generous breathing room. No text, lettering, words, numbers, logos, watermarks, or literal software screenshots."
+  },
+  {
+    "slug": "patch-linux-kvm-amd-host-memory-leak-cve-2026-99312",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration of cloud hypervisor memory isolation and virtual machine confinement: in the center, a solid midnight navy server hypervisor module with subtle glowing amber memory grid tracks, with an abstract floating guest virtual machine container beside it. A protective cryptographic shield and an interlocking amber boundary barrier separate the virtual machine from host memory. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural shadows. Midnight navy, muted slate blue, warm cream background and amber accents. Centered subjects, generous breathing room. No lettering, no words, no numbers, no logos, no watermark. Conceptual illustration, not a literal product screenshot."
+  },
+  {
+    "slug": "ai-inference-gateway-prompt-theft-openrouter-incident",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration of an AI model inference pipeline and cryptographic API token protection: in the center, a sculptural midnight navy AI gateway router routing streams of small geometric query blocks into a neural network prism. An amber cryptographic vault lock and security filter inspect and seal outgoing tokens, intercepting intercepted credential blocks on a warm cream background. Polished tactile 3D editorial illustration, restrained geometric forms, soft matte surfaces, subtle paper texture, warm studio lighting, natural shadows. Midnight navy, muted slate blue, warm cream background and amber accents. Centered subjects, generous breathing room. No lettering, no words, no numbers, no logos, no watermark. Conceptual illustration, not a literal product screenshot."
+  },
+  {
+    "slug": "patch-vmware-vcenter-zero-day-auth-bypass-cve-2026-123890",
+    "tool": "built-in image generation",
+    "prompt": "Use case: stylized-concept. Asset type: professional personal developer blog cover image. Wide landscape 16:9 conceptual editorial illustration of an enterprise virtualization management appliance and cryptographic access control: in the center, a monumental midnight navy datacenter server console representing a virtualization management controller, flanked by an interlocking amber cryptographic key and a protective dual-layered security shield guarding access pathways. Warm studio lighting, natural shadows, soft matte surfaces, subtle paper texture. Midnight navy, muted slate blue, warm cream background and amber accents. Centered subjects, generous breathing room. No lettering, no words, no numbers, no logos, no watermark. Conceptual illustration, not a literal product screenshot."
   }
 ]
